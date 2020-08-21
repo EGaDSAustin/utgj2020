@@ -75,11 +75,7 @@ export class SignUp extends React.Component {
                                 target="_blank"
                                 rel="noopener" 
                                 style={styles.link}> this Google Form </Link> 
-                                and then join the 
-                                <Link href="https://discord.gg/FHs7hAN"
-                                target="_blank"
-                                rel="noopener" 
-                                style={styles.link}> UT Game Jam 2020 Discord server! </Link> 
+                                and then join the UT Game Jam 2020 Discord server! 
                     </Typography>
                     <Typography variant = "subtitle1" style={styles.text}>
                             The server will contain more information about the Game Jam, such as finding teams, participating, and the answers to any other questions you may have.

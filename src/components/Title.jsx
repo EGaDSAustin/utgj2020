@@ -55,7 +55,7 @@ export class Title extends React.Component {
                             description={
                             <div>
                             <Typography variant="subtitle1">
-                                On the <a href="https://discord.gg/FHs7hAN" target="_blank" rel="noopener noreferrer">UT Game Jam 2020 Discord server!</a> We're all about practicing social distancing and staying safe.
+                                On the UT Game Jam 2020 Discord server! We're all about practicing social distancing and staying safe.
                             </Typography>
                         </div>
                         }/>

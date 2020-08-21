@@ -27,7 +27,7 @@ export class Navbar extends React.Component {
                     <StyledTabs centered style={{marginTop: '0'}} className="navbar">
                         <Tab value={0} label="Home" to="/utgj2020" onClick={ScrollToTop} component={Link} />
                         <Tab value={1} label="About" to="/utgj2020/#about" smooth component={NavHashLink}/>
-                        {/* <Tab value={2} label="Register" to="/#register" smooth component={NavHashLink}/> */}
+                        <Tab value={2} label="Register" to="/utgj2020/#signup" smooth component={NavHashLink}/>
                         <Tab value={2} label="Schedule" to="/utgj2020/#schedule" smooth component={NavHashLink}/>
                         <Tab value={3} label="Games" to="/utgj2020/#games" smooth component={NavHashLink}/>
                         <Tab value={4} label="Sponsors" to="/utgj2020/#sponsors" smooth component={NavHashLink}/>
