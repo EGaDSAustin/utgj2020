@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Link, SvgIcon, Container, Grid } from "@material-ui/core";
+import { Typography, Link, SvgIcon } from "@material-ui/core";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import MailIcon from "@material-ui/icons/Mail";

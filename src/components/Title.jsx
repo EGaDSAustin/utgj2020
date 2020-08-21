@@ -8,7 +8,7 @@ import whatImage from '../assets/infoGrid/pear.png';
 import whereImage from '../assets/infoGrid/strawberry.png';
 import whyImage from '../assets/infoGrid/grape.png';
 import RegisterImage from '../assets/infoGrid/apricot.png';
-import jamLogo from '../assets/jamlogo.png';
+// import jamLogo from '../assets/jamlogo.png';
 
 
 export class Title extends React.Component {
@@ -25,7 +25,7 @@ export class Title extends React.Component {
                     <Typography variant="subtitle1">September 17th - 20th // 64 hours</Typography>
                 </div>
 
-                <img src={heroImage} height="100%" width="100%" position="relative" style={{ marginTop: '50px', zIndex: '0' }} />
+                <img src={heroImage} alt="Game Jam Hero" height="100%" width="100%" position="relative" style={{ marginTop: '50px', zIndex: '0' }} />
 
                 <Typography variant="h3" style={{ paddingTop: '40px' }} id="about">Come join us in making games,</Typography>
                 <Typography variant="h3">friends, and memories!</Typography>
@@ -36,7 +36,7 @@ export class Title extends React.Component {
                             photo={whoImage} alt_text='who_image'
                             description={
                                 <div>
-                                    <Typography variant="subtitle1">This event is hosted by <a href="https://www.facebook.com/groups/egadsaustin/" target="_blank" rel="noopener">EGaDS!</a>, a student
+                                    <Typography variant="subtitle1">This event is hosted by <a href="https://www.facebook.com/groups/egadsaustin/" target="_blank" rel="noopener noreferrer">EGaDS!</a>, a student
                                     organization dedicated to fostering game development on UT campus. It's open to all skill levels and is free to attend!</Typography>
                                 </div>
                             } /></Grid>
@@ -55,7 +55,7 @@ export class Title extends React.Component {
                             description={
                             <div>
                             <Typography variant="subtitle1">
-                                On the <a href="https://discord.gg/FHs7hAN" target="_blank" rel="noopener">UT Game Jam 2020 Discord server!</a> We're all about practicing social distancing and staying safe.
+                                On the <a href="https://discord.gg/FHs7hAN" target="_blank" rel="noopener noreferrer">UT Game Jam 2020 Discord server!</a> We're all about practicing social distancing and staying safe.
                             </Typography>
                         </div>
                         }/>
@@ -66,7 +66,7 @@ export class Title extends React.Component {
                             photo={whyImage} alt_text='why_image'
                             description="Better your game development skills add to or begin your portfolio, and connect with your student team and industry mentor." />
                     </Grid></Grid>
-                <img src={RegisterImage} alt='register image' style={{ maxWidth: '100%', width: 'auto', height: '250px', position: 'relative', top: '-80px', marginBottom: '-80px' }} />
+                <img src={RegisterImage} alt='register' style={{ maxWidth: '100%', width: 'auto', height: '250px', position: 'relative', top: '-80px', marginBottom: '-80px' }} />
             </Container>
         );
     }

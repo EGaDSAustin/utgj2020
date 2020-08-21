@@ -55,6 +55,7 @@ export class Footer extends React.Component {
                 </Typography>
                 <img
                     src={goodboye}
+                    alt="egads footer dog"
                     width="auto"
                     height="150px"
                     style={{ padding: "20px" }}

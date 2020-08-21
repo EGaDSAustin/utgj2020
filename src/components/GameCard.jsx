@@ -32,7 +32,7 @@ export default function GameCard ({name, img, link}) {
         // TODO make the spacing between items smaller and non-variable?
         <Grid item xs={6} sm={4} md={3} lg={2} xl={2}>
             <div className="card-container" style={styles.container}>
-                <a href={link} target="_blank" rel="noopener"><img src={img} className="gallery_img" alt={name} height = "100%" width = "100%" style={styles.image}/>
+                <a href={link} target="_blank" rel="noopener noreferrer"><img src={img} className="gallery_img" alt={name} height = "100%" width = "100%" style={styles.image}/>
                 <Typography variant="h4" className="name_overlay" style={styles.name}>{name}</Typography>
                 </a>
             </div>

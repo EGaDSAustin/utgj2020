@@ -19,10 +19,6 @@ function ScrollToTop() {
 }
 
 export class Navbar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     //NONCRITICAL TODO: Don't jump to home and scroll from register
     render() {
         return (

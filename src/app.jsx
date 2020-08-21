@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import { browserHistory } from 'react-router';
 import "./app.css";
 import GlobalStyle from './components/styles.js';
@@ -9,7 +9,7 @@ import imageMapResize from 'image-map-resizer'
 
 import { Navbar } from './components/Navbar';
 import { Title } from './components/Title';
-import { Register } from './components/Register';
+// import { Register } from './components/Register';
 import { SignUp } from './components/SignUp';
 import { Schedule } from './components/Schedule';
 import { Games } from './components/Games';
@@ -20,11 +20,11 @@ import jellyLong from './assets/jellylong4.png';
 
 import { Link as RouterLink } from 'react-router-dom'
 import Fab from '@material-ui/core/Fab';
-import { Typography } from '@material-ui/core';
+// import { Typography } from '@material-ui/core';
 // import MobileNavbar from './components/mobile/MobileNavbar.jsx';
 
 
-const formUrl = "https://forms.gle/gDWmRyD17iM6np3f9"
+// const formUrl = "https://forms.gle/gDWmRyD17iM6np3f9"
 
 class ScrollToTopOnMount extends React.Component {
     componentDidMount() {
@@ -61,7 +61,7 @@ class App extends React.Component {
                       <Fab disabled = "true" variant="extended" aria-label="add" color="primary" to="/theme" onClick={ScrollToTop} component={RouterLink}>
                         Theme TBA!
                       </Fab>
-                      <img src={jellyLong} style={{ width: '100%', marginBottom: '-10px'}} />
+                      <img src={jellyLong} alt="page divider" style={{ width: '100%', marginBottom: '-10px'}} />
                       <div style={{backgroundColor: '#ecb6ff'}}>
                         <div id='signup'><SignUp/></div>
                         <div id='schedule'><Schedule/></div>
@@ -100,16 +100,16 @@ function hashLinkScroll() {
 
 
 
-let dark_color = '#5D5116';
-let darker_color = '#302F0C';
-let light_green = '#968326'
-let caption_color = '#494B4E';
-let accent_color = '#E4C400';
+// let dark_color = '#5D5116';
+// let darker_color = '#302F0C';
+// let light_green = '#968326'
+// let caption_color = '#494B4E';
+// let accent_color = '#E4C400';
 let white = '#FFFFFF';
-let orange = '#DC7F23';
-let yellow = "#F6B637";
+// let orange = '#DC7F23';
+// let yellow = "#F6B637";
 
-let purple      = '#d36bff';
+// let purple      = '#d36bff';
 let dark_purple = '#9441ec';
 let blue        = '#20b4ff';
 let dark_blue   = '#1579d5';

@@ -1,8 +1,7 @@
 import React from 'react';
 import {
     Typography,
-    Container,
-    Grid
+    Container
 } from '@material-ui/core';
 
 const diversifiers = [

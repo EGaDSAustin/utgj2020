@@ -10,7 +10,7 @@ import zynga from '../assets/sponsors/zynga.png'
 // import kabam from '../assets/sponsors/kabam.png'
 // import ea from '../assets/sponsors/ea.png'
 // import hoft from '../assets/sponsors/hoft.png'
-import collage from '../assets/sponsors/sponsorcollage.png'
+// import collage from '../assets/sponsors/sponsorcollage.png'
 
 const styles = {
   container: {
@@ -46,7 +46,7 @@ export class Sponsors extends React.Component {
         <Grid container spacing={0} style={{marginTop: '20px'}}>
           <Grid item xs={12}>
             <Link href="https://www.zynga.com/" target="_blank" rel="noopener">
-              <img src={zynga} className="SponsorImg"/>
+              <img src={zynga} alt="zynga logo" className="SponsorImg"/>
             </Link>
           </Grid>
         </Grid>

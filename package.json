@@ -1,7 +1,7 @@
 {
   "name": "utgj2020",
   "version": "0.1.0",
-  "homepage": "https://egadsaustin.github.io/utgj2020",
+  "homepage": "https://egadsaustin.github.io/utgj2020/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
