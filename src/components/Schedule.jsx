@@ -4,12 +4,12 @@ import {
     Container,
     Grid
 } from '@material-ui/core';
-import { animateHTML } from './FadeInOnView.jsx'
+// import { animateHTML } from './FadeInOnView.jsx'
 
 
 
-document.documentElement.style
-    .setProperty('--schedule-opacity', document.getElementsByClassName("hidden").length > 0 ? '0' : '1');
+// document.documentElement.style
+//     .setProperty('--schedule-opacity', document.getElementsByClassName("hidden").length > 0 ? '0' : '1');
 
 const styles = {
     header: {
@@ -67,7 +67,7 @@ const schedule_info = [{
 
 function createSchedule() {
     return (
-        <div className="hidden" >
+        <div  >
             {schedule_info.map(date_item => {
                 return (
                     <div  className="schedulesSingleGrid">
@@ -96,9 +96,9 @@ function createSchedule() {
 
 export class Schedule extends React.Component {
 
-    componentDidMount(){
-        animateHTML().init()
-    }
+    // componentDidMount(){
+    //     animateHTML().init()
+    // }
 
     render() {
         return ( 
