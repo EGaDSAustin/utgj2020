@@ -23,7 +23,7 @@ export class Navbar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <a href="/gamejam"><img src={icon} alt='navbar icon' style={{marginTop: '20px', width:'70px', height: 'auto'}}/></a>
+                <a href="/"><img src={icon} alt='navbar icon' style={{marginTop: '20px', width:'70px', height: 'auto'}}/></a>
                     <StyledTabs centered style={{marginTop: '0'}} className="navbar">
                         <Tab value={0} label="Home" to="/" onClick={ScrollToTop} component={Link} />
                         <Tab value={1} label="About" to="/#about" smooth component={NavHashLink}/>

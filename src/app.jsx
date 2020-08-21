@@ -52,7 +52,7 @@ class App extends React.Component {
             <GlobalStyle/>
             <Navbar/>
             <Switch>
-              <Route exact path="/" render={routeProps => (
+              <Route exact path="/utgj2020" render={routeProps => (
                   <div>
                     <ScrollToTopOnMount/>
                     <br/>
