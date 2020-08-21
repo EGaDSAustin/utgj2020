@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58c06ce951ab4a1f64c0cd20587bbd00",
+    "revision": "b140551c63308ab93603f8976657be4c",
     "url": "/utgj2020/index.html"
   },
   {
-    "revision": "a323e64089191968aef8",
+    "revision": "8ba3b6f691d8b39766c0",
     "url": "/utgj2020/static/css/main.05b062f0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/utgj2020/static/js/2.7f7cbce3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a323e64089191968aef8",
-    "url": "/utgj2020/static/js/main.00af94c6.chunk.js"
+    "revision": "8ba3b6f691d8b39766c0",
+    "url": "/utgj2020/static/js/main.164d6ac3.chunk.js"
   },
   {
     "revision": "64ab67a046bfc83dff36",
