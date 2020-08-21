@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/utgj2020/static/css/main.05b062f0.chunk.css",
-    "main.js": "/utgj2020/static/js/main.77d2538a.chunk.js",
-    "main.js.map": "/utgj2020/static/js/main.77d2538a.chunk.js.map",
+    "main.js": "/utgj2020/static/js/main.737292cb.chunk.js",
+    "main.js.map": "/utgj2020/static/js/main.737292cb.chunk.js.map",
     "runtime-main.js": "/utgj2020/static/js/runtime-main.7418f90e.js",
     "runtime-main.js.map": "/utgj2020/static/js/runtime-main.7418f90e.js.map",
-    "static/js/2.3a92a5eb.chunk.js": "/utgj2020/static/js/2.3a92a5eb.chunk.js",
-    "static/js/2.3a92a5eb.chunk.js.map": "/utgj2020/static/js/2.3a92a5eb.chunk.js.map",
+    "static/js/2.7f7cbce3.chunk.js": "/utgj2020/static/js/2.7f7cbce3.chunk.js",
+    "static/js/2.7f7cbce3.chunk.js.map": "/utgj2020/static/js/2.7f7cbce3.chunk.js.map",
     "index.html": "/utgj2020/index.html",
-    "precache-manifest.07e7eacd67e1cf588c3dec359ea0cf29.js": "/utgj2020/precache-manifest.07e7eacd67e1cf588c3dec359ea0cf29.js",
+    "precache-manifest.0dbaa30b42c124708de32d779df41921.js": "/utgj2020/precache-manifest.0dbaa30b42c124708de32d779df41921.js",
     "service-worker.js": "/utgj2020/service-worker.js",
     "static/css/main.05b062f0.chunk.css.map": "/utgj2020/static/css/main.05b062f0.chunk.css.map",
-    "static/js/2.3a92a5eb.chunk.js.LICENSE.txt": "/utgj2020/static/js/2.3a92a5eb.chunk.js.LICENSE.txt",
+    "static/js/2.7f7cbce3.chunk.js.LICENSE.txt": "/utgj2020/static/js/2.7f7cbce3.chunk.js.LICENSE.txt",
     "static/media/Discord-Logo-Pure-White.5e2b696c.svg": "/utgj2020/static/media/Discord-Logo-Pure-White.5e2b696c.svg",
     "static/media/apricot.png": "/utgj2020/static/media/apricot.68d3873f.png",
     "static/media/ascent.png": "/utgj2020/static/media/ascent.2b3002d7.png",
@@ -34,7 +34,6 @@
     "static/media/orange.png": "/utgj2020/static/media/orange.c7045472.png",
     "static/media/pear.png": "/utgj2020/static/media/pear.b6b6616f.png",
     "static/media/pictureperfect.png": "/utgj2020/static/media/pictureperfect.defca96b.png",
-    "static/media/sponsorcollage.png": "/utgj2020/static/media/sponsorcollage.827c2088.png",
     "static/media/strawberry.png": "/utgj2020/static/media/strawberry.9df94dd1.png",
     "static/media/swiffersadventure.png": "/utgj2020/static/media/swiffersadventure.1a2f49a6.png",
     "static/media/tetrisblocker.png": "/utgj2020/static/media/tetrisblocker.5816b6e9.png",
@@ -45,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7418f90e.js",
-    "static/js/2.3a92a5eb.chunk.js",
+    "static/js/2.7f7cbce3.chunk.js",
     "static/css/main.05b062f0.chunk.css",
-    "static/js/main.77d2538a.chunk.js"
+    "static/js/main.737292cb.chunk.js"
   ]
 }
