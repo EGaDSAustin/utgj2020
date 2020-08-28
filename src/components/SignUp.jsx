@@ -70,13 +70,25 @@ export class SignUp extends React.Component {
                 </Typography>
                 <div style={styles.subcontainer}>
                     <Typography variant = "h3" style={styles.text}>
-                            All you have to do to register is fill out 
+                            To register as a participant in the Game Jam, fill out our
                             <Link href="https://forms.gle/DeGPcPmJc2anyRfT9"
                                 target="_blank"
                                 rel="noopener" 
-                                style={styles.link}> this Google Form </Link> 
-                                and then join the UT Game Jam 2020 Discord server! 
+                                style={styles.link}> participant registration form
+                            </Link>
+                            . If you're interested in being a mentor, check out our
+                            <Link href="https://forms.gle/1j4DsnNjSSidXWLH6"
+                                target="_blank"
+                                rel="noopener" 
+                                style={styles.link}> mentor interest form</Link> instead.
+                                Once you're done, join the UT Game Jam 2020 Discord server and you're all set to jam! 
                     </Typography>
+                    {/* <Typography variant = "subtitle1" style={styles.text}>
+                            Are you interested in being a mentor instead of creating a game? Check out <Link href="https://forms.gle/DeGPcPmJc2anyRfT9"
+                                target="_blank"
+                                rel="noopener" 
+                                style={styles.link}> this Google Form </Link> instead. 
+                    </Typography> */}
                     <Typography variant = "subtitle1" style={styles.text}>
                             The server will contain more information about the Game Jam, such as finding teams, participating, and the answers to any other questions you may have.
                     </Typography>
