@@ -58,7 +58,7 @@ class App extends React.Component {
                     <br/>
                       <div id='title'><Title/></div>
                       {/* <div id='register'><Register/></div> */}
-                      <Fab variant="extended" aria-label="add" color="primary" to="/utgj2020/theme" onClick={ScrollToTop} component={RouterLink}>
+                      <Fab variant="extended" aria-label="add" color="primary" to="/theme" onClick={ScrollToTop} component={RouterLink}>
                         Theme!
                       </Fab>
                       <img src={jellyLong} alt="page divider" style={{ width: '100%', marginBottom: '-10px'}} />
@@ -71,7 +71,7 @@ class App extends React.Component {
                       </div>
                     </div>
               )}/>
-              <Route path="/utgj2020/theme" component={Theme}/>
+              <Route path="/theme" component={Theme}/>
               <Route path='/submit' component={() => { 
                 window.location.href = "https://itch.io/jam/ut-game-jam-2020"; 
                 return null;
