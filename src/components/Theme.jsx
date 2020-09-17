@@ -1,181 +1,140 @@
-import React from 'react';
-import {
-    Typography,
-    Container
-} from '@material-ui/core';
+import React from "react";
+import { Typography, Container } from "@material-ui/core";
 
 const diversifiers = [
     {
-        name: "I'm in the game!",
-        description: "Have all your teammates referenced in the game, whether it be credits or in actual gameplay."
+        name: "Fine Literature",
+        description:
+            "Include 2 poems written by the team that the player can find and read",
     },
     {
-        name: "Blast from the past",
-        description: "Incorporate any previous UT game jam theme. Previous themes are block, trash, cactus, it begins, binary, day and night."
+        name: "Is Something Behind the Waterfall?",
+        description:
+            "Include a secret reward/passage only accessible by moving behind a waterfall",
+    },
+    { name: "Frog", description: "Include a frog in the game" },
+    {
+        name: "Is that a JoJo reference??",
+        description: " Make everything in your game a reference",
     },
     {
-        name: "A minor change",
-        description: "All music in your game must be in a minor key."
+        name: "Rock, Paper, Scissors",
+        description: "Include a type of weapon triangle",
+    },
+    { name: "Can you pet the dog?", description: "Include a pettable dog" },
+    {
+        name: "UnSilent Protagonist",
+        description: "include a player character who talks constantly",
     },
     {
-        name: "Can you pet the dog?",
-        description: "Include one or more animals or pets that the player can pet and interact with."
+        name: "Character creator",
+        description:
+            "Allow the player to customize their character’s physical appearance",
     },
     {
-        name: "Keep it simple",
-        description: "Make your game playable by people who can use no more than a D-pad plus 2 buttons, with hardware like an Xbox Adaptive Controller in mind."
+        name: "Fashionista",
+        description: "Include several equippable outfits for a character",
     },
     {
-        name: "Hold on, I need to set my controls",
-        description: "Include remappable controls in your game."
+        name: "Super Hexagon",
+        description: "Make a 2D game with a hexagonal tile-map",
     },
     {
-        name: "Always room for one more",
-        description: "Make a game where new players can join at any time."
+        name: "In the future…",
+        description: "Include dialogue that is randomly generated",
     },
     {
-        name: "Put on your dancing shoes",
-        description: "Incorporate a dance pad as a control scheme for your game."
+        name: "Check out the enclosed instruction book",
+        description:
+            "Create a physical instruction book for your game (or digital if we’re online)",
     },
     {
-        name: "Language-Independence",
-        description: "Create a game that can be understood regardless of which language the player speaks."
+        name: "It’s a feature!",
+        description:
+            "Make your game crash intentionally (when the player fails, etc.)",
     },
     {
-        name: "In control",
-        description: "Implement a control scheme that doesn’t use a keyboard or controller."
+        name: "You cheated not only the game, but yourself",
+        description:
+            "Add cheats/modifiers to your game that players can unlock/find codes for (outside the game?)",
     },
     {
-        name: "Where am I?",
-        description: "Implement a visible mini-map or some way to view a map in-game."
+        name: "Isometric Exercise",
+        description: "Make a 3D game with an isometric camera",
     },
     {
-        name: "Disunity",
-        description: "Make your game outside of the Unity Game Engine."
+        name: "‘Tis the season",
+        description: "Make your game based off of a holiday",
     },
     {
-        name: "Mr. Worldwide",
-        description: "Make your game playable within a web browser."
+        name: "DeviantArt: Resurrection",
+        description:
+            "Make the main character based off of an old OC by one of your artists",
     },
     {
-        name: "What’s the wifi password?",
-        description: "Make an online multiplayer game."
+        name: "I never learned how to reeeeead!",
+        description: "Make a narrative-driven game with no (legible) dialogue",
     },
     {
-        name: "Ridin' Solo",
-        description: "The game story only has one character."
+        name: "It’s at least a C+!",
+        description:
+            "Give a ranking on how well the player did at the end of your game",
     },
     {
-        name: "Power down",
-        description: "Losing abilities is the only way for your player to progress."
-    },
-    {
-        name: "Mixed Media",
-        description: "Make a physical game that utilises computer code."
-    },
-    {
-        name: "Ephemeral",
-        description: "Make a game that can only be played once by each player."
-    },
-    {
-        name: "Can you hear me now?",
-        description: "Any spoken lines or voice-over must be voiced by a member of your team."
-    },
-    {
-        name: "Recycle!",
-        description: "Instead of making a brand new game, start from an existing Game Jam game from a previous year, made by someone you don’t know. Improve it and take it in a new direction."
-    },
-    {
-        name: "Simon Says",
-        description: "Use exactly four colors."
-    },
-    {
-        name: "Do you remember?",
-        description: "Implement some sort of elemental system in your game (i.e. earth, wind, fire)."
-    },
-    {
-        name: "Polyglot",
-        description: "Localize your game into two or more languages."
-    },
-    {
-        name: "Beatbox",
-        description: "All sounds for your game must be created using your voice or body."
-    },
-    {
-        name: "Easter Egg",
-        description: "Include an Easter Egg or secret in your game."
-    },
-    {
-        name: "Da Ba Dee Da Ba Dye",
-        description: "Your game can only use shades of blue."
-    },
-    {
-        name: "Monochrome",
-        description: "Your game can only use a monochromatic color scheme."
-    },
-    {
-        name: "Hidden Depths",
-        description: "The protagonist isn’t who you think they are at the beginning."
-    },
-    {
-        name: "Palindrome",
-        description: "The game story must end the same way it began."
-    },
-    {
-        name: "Inception",
-        description: "Create a totally different game that can be played inside your game submission. Must also relate to the theme."
-    },
-    {
-        name: "Cryptographer",
-        description: "Create a new language just for your game."
+        name: "MIDIeval Times",
+        description:
+            "Make your music in the classic windows MIDI soundfont (for this, we recommend downloading musescore 2 for composing, exporting your song as a MIDI, and then recording the playback using audacity/any DAW).",
     },
     {
         name: "Don’t say a word",
-        description: "A multiplayer game that requires communication between players, without relying on text or voice."
+        description:
+            "A multiplayer game that requires communication between players, without relying on text or voice",
+    },
+    { name: "Praise the Sun", description: "Implement a roll" },
+    { name: "Sick beats", description: "Have beatboxing in your game" },
+    {
+        name: "Art…?",
+        description: "make the majority of your assets in MS Paint",
     },
     {
-        name: "Instrumental",
-        description: "All sound is sourced from variations of a single instrument, e.g. different types of guitar, or different types of piano."
+        name: "Chaotic kinda good",
+        description: "Make a game where you help people by doing something bad",
     },
-    {
-        name: "Let's get moving!",
-        description: "Make a game that requires or encourages exercise or physical activity."
-    },
-    {
-        name: "Upside down",
-        description: "One or more game systems programmed by an artist, major art assets produced by programmers/coder."
-    },
-    {
-        name: "Kevin",
-        description: "Kevin?"
-    }
-]
+];
 
 function createTheme() {
-    return(
+    return (
         <div align="center">
             <Container>
-                <Typography variant="h1" color="primary">The theme of the game jam is...</Typography>
-                <Typography variant="h1" color="secondary">Return!</Typography>
+                <Typography variant="h4" color="inherit">
+                    The theme of the game jam is...
+                </Typography>
+                <Typography variant="h1" color="primary">
+                    Something’s Missing
+                </Typography>
             </Container>
         </div>
     );
 }
 
 function createDiversifiers() {
-    return(
+    return (
         <div>
             <div align="center">
                 <Container>
-                    <Typography variant="h2" color="secondary">DIVERSIFIERS</Typography>
+                    <Typography variant="h2" >
+                        DIVERSIFIERS
+                    </Typography>
                 </Container>
             </div>
-            <br/>
-            {diversifiers.map(div_item => {
-                return(
+            <br />
+            {diversifiers.map((div_item) => {
+                return (
                     <div align="center">
                         <Typography variant="h6">{div_item.name}</Typography>
-                        <Typography variant="body1">{div_item.description}</Typography>
+                        <Typography variant="body1">
+                            {div_item.description}
+                        </Typography>
                     </div>
                 );
             })}
@@ -185,12 +144,12 @@ function createDiversifiers() {
 
 export class Theme extends React.Component {
     render() {
-        return(
+        return (
             <div>
                 {createTheme()}
-                <br/>
+                <br />
                 {createDiversifiers()}
-                <br/>
+                <br />
             </div>
         );
     }

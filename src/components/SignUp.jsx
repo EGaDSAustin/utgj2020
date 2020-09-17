@@ -69,7 +69,7 @@ export class SignUp extends React.Component {
                     Registration
                 </Typography>
                 <div style={styles.subcontainer}>
-                    <Typography variant = "h3" style={styles.text}>
+                    {/* <Typography variant = "h3" style={styles.text}>
                             To register as a participant in the Game Jam, fill out our
                             <Link href="https://forms.gle/DeGPcPmJc2anyRfT9"
                                 target="_blank"
@@ -89,8 +89,11 @@ export class SignUp extends React.Component {
                                 rel="noopener" 
                                 style={styles.link}> this Google Form </Link> instead. 
                     </Typography> */}
-                    <Typography variant = "subtitle1" style={styles.text}>
+                    {/* <Typography variant = "subtitle1" style={styles.text}>
                             The server will contain more information about the Game Jam, such as finding teams, participating, and the answers to any other questions you may have.
+                    </Typography> */}
+                    <Typography variant = "h3" style={styles.text}>
+                        Registration for the Game Jam is now closed :(
                     </Typography>
                     <Typography variant = "subtitle1" style={styles.text}>
                             Be sure to follow our other socials for updates on the Game Jam and our other events!
