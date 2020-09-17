@@ -31,10 +31,8 @@ export class Navbar extends React.Component {
                         <Tab value={2} label="Schedule" to="/utgj2020/#schedule" smooth component={NavHashLink}/>
                         <Tab value={3} label="Games" to="/utgj2020/#games" smooth component={NavHashLink}/>
                         <Tab value={4} label="Sponsors" to="/utgj2020/#sponsors" smooth component={NavHashLink}/>
-                        <Tab value={5} label="Theme" to="/theme" smooth onClick={ScrollToTop} component={Link} />
-                        {/* <a href="https://itch.io/jam/ut-game-jam-2020">
-                            <Tab value={6} label="Submit"  component={Link} />
-                        </a> */}
+                        <Tab value={5} label="Theme" to="/utgj2020/theme" smooth onClick={ScrollToTop} component={Link} />
+                        {/* <Tab value={6} label="Submit" to="/submit" smooth component={Link} /> */}
                         
                     </StyledTabs>
             </React.Fragment>
