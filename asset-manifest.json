@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/utgj2020/static/css/main.05b062f0.chunk.css",
-    "main.js": "/utgj2020/static/js/main.40deb0ed.chunk.js",
-    "main.js.map": "/utgj2020/static/js/main.40deb0ed.chunk.js.map",
+    "main.js": "/utgj2020/static/js/main.3beec2ed.chunk.js",
+    "main.js.map": "/utgj2020/static/js/main.3beec2ed.chunk.js.map",
     "runtime-main.js": "/utgj2020/static/js/runtime-main.7418f90e.js",
     "runtime-main.js.map": "/utgj2020/static/js/runtime-main.7418f90e.js.map",
-    "static/js/2.ed908158.chunk.js": "/utgj2020/static/js/2.ed908158.chunk.js",
-    "static/js/2.ed908158.chunk.js.map": "/utgj2020/static/js/2.ed908158.chunk.js.map",
+    "static/js/2.325206bd.chunk.js": "/utgj2020/static/js/2.325206bd.chunk.js",
+    "static/js/2.325206bd.chunk.js.map": "/utgj2020/static/js/2.325206bd.chunk.js.map",
     "index.html": "/utgj2020/index.html",
-    "precache-manifest.cea19cac137f8afe966197ca94b2a022.js": "/utgj2020/precache-manifest.cea19cac137f8afe966197ca94b2a022.js",
+    "precache-manifest.7170e8bf8e90865a8cc0cdbb11b9282e.js": "/utgj2020/precache-manifest.7170e8bf8e90865a8cc0cdbb11b9282e.js",
     "service-worker.js": "/utgj2020/service-worker.js",
     "static/css/main.05b062f0.chunk.css.map": "/utgj2020/static/css/main.05b062f0.chunk.css.map",
-    "static/js/2.ed908158.chunk.js.LICENSE.txt": "/utgj2020/static/js/2.ed908158.chunk.js.LICENSE.txt",
+    "static/js/2.325206bd.chunk.js.LICENSE.txt": "/utgj2020/static/js/2.325206bd.chunk.js.LICENSE.txt",
     "static/media/Discord-Logo-Pure-White.5e2b696c.svg": "/utgj2020/static/media/Discord-Logo-Pure-White.5e2b696c.svg",
     "static/media/apricot.png": "/utgj2020/static/media/apricot.68d3873f.png",
     "static/media/b-lock.png": "/utgj2020/static/media/b-lock.dd9261c9.png",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7418f90e.js",
-    "static/js/2.ed908158.chunk.js",
+    "static/js/2.325206bd.chunk.js",
     "static/css/main.05b062f0.chunk.css",
-    "static/js/main.40deb0ed.chunk.js"
+    "static/js/main.3beec2ed.chunk.js"
   ]
 }
